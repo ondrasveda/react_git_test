@@ -35,6 +35,9 @@ jobs:
         with:
           # Cesta, kde se po buildu vytvoří výsledný projekt
           path: ./dist
+      # 7) Testy
+      - name: Run tests
+        run: npm test
 
   deploy:
     permissions:
