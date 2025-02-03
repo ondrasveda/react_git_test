@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { calcAge } from "/utils";
+import { calcAge } from "../src/utils";
 
 describe("calcAge", () => {
   it("should correctly calculate age for a given birth year", () => {
